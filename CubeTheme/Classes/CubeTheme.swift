@@ -11,8 +11,9 @@ import UIKit
 /// public无法被其他module继承
 public class CubeTheme {
     
-    /// 让外部Module可以创建对象
-    public init() {}
+    /// 单例模式
+    public static let shared = CubeTheme()
+    private init() {}
     
     /// 内部-状态
     public lazy var color = CubeThemeColor()
