@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CubeTheme_Example' do
+  pod 'CubeTheme', :path => '../'
+
+  target 'CubeTheme_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
