@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import CubeTheme
+
+let Theme = CubeTheme()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
