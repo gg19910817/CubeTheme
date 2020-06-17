@@ -1,0 +1,16 @@
+PODS:
+  - CubeTheme (0.1.0)
+
+DEPENDENCIES:
+  - CubeTheme (from `../`)
+
+EXTERNAL SOURCES:
+  CubeTheme:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CubeTheme: 8948e65c451d514921914f8110d98ffd4b60b645
+
+PODFILE CHECKSUM: e5fdc8949a50c8b3403d477a2b841349a8f1da50
+
+COCOAPODS: 1.9.3

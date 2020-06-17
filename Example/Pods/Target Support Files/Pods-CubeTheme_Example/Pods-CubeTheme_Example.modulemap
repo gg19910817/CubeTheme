@@ -1,0 +1,6 @@
+framework module Pods_CubeTheme_Example {
+  umbrella header "Pods-CubeTheme_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CubeTheme {
+  umbrella header "CubeTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
