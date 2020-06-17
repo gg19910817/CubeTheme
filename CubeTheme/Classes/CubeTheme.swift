@@ -34,9 +34,12 @@ public extension CubeTheme {
         case "body": // 内容
             label.textColor = color.normal
             label.font = fontFor(size.m)
+        case "detail": // 提示语
+            label.textColor = color.normal
+            label.font = fontFor(size.m - 2)
         case "tip": // 提示语
             label.textColor = color.normal
-            label.font = fontFor(size.m)
+            label.font = fontFor(size.m - 4)
         default:
             break
         }

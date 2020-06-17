@@ -37,7 +37,7 @@ class ColorViewController: UIViewController {
         Theme.style(titleLabel, "title")
         Theme.style(bodyLabel, "body")
         Theme.style(detailLabel, "detail")
-        Theme.style(TipsLabel, "tips")
+        Theme.style(TipsLabel, "tip")
         
     }
 
